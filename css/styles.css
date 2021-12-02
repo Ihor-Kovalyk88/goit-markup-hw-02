@@ -1,0 +1,44 @@
+/* колір тексту заголовків rgba(33, 33, 33, 1); */
+/* колір тексту параграфів rgba(117, 117, 117, 1); */
+/* колір фону сторінки Background #E5E5E5 */
+/* колір фону кнопки синій  rgba(33, 150, 243, 1) */
+/* колір фону кнопки сірий rgba(245, 244, 250, 1) */
+/* колір тексту кнопок білий rgba(255, 255, 255, 1) */
+.page {
+  background-color: #e5e5e5;
+  color: rgba(33, 33, 33, 1);
+}
+/* прибираємо крапки у перелічуваннях */
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.logo span {
+  color: rgba(33, 33, 33, 1);
+}
+/* site-nav */
+
+.site-nav a {
+  color: rgba(33, 33, 33, 1);
+}
+
+.site-nav .stydio.current.current {
+  color: #2196f3;
+}
+.site-nav .portfolio.current {
+  color: #2196f3;
+}
+
+/* auth-nav */
+
+.auth-nav a {
+  color: rgba(33, 33, 33, 1);
+}
+
+.auth-nav .tel {
+  color: ;
+}
