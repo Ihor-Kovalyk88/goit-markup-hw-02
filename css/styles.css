@@ -4,9 +4,21 @@
 /* колір фону кнопки синій  rgba(33, 150, 243, 1) */
 /* колір фону кнопки сірий rgba(245, 244, 250, 1) */
 /* колір тексту кнопок білий rgba(255, 255, 255, 1) */
-.page {
+:root {
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --title-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --wite-color: rgba(255, 255, 255, 1);
+}
+
+header {
+  background-color: var(--wite-color);
+  color: var(--primary-text-color);
+}
+
+main {
   background-color: #e5e5e5;
-  color: rgba(33, 33, 33, 1);
+  color: var(--primary-text-color);
 }
 /* прибираємо крапки у перелічуваннях */
 ul {
@@ -14,31 +26,30 @@ ul {
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo span {
-  color: rgba(33, 33, 33, 1);
+  color: var(--primary-text-color);
 }
 /* site-nav */
 
 .site-nav a {
-  color: rgba(33, 33, 33, 1);
+  color: var(--primary-text-color);
 }
 
 .site-nav .stydio.current.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .portfolio.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* auth-nav */
 
 .auth-nav a {
-  color: rgba(33, 33, 33, 1);
+  color: var(--primary-text-color);
 }
 
 .auth-nav .tel {
-  color: ;
 }
