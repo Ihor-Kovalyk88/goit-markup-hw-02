@@ -9,15 +9,20 @@
   --title-text-color: rgba(117, 117, 117, 1);
   --accent-color: rgba(33, 150, 243, 1);
   --wite-color: rgba(255, 255, 255, 1);
+  --background-features-color: #e5e5e5;
+  --background-header-color: rgba(255, 255, 255, 1);
+  --background-work-color: #e5e5e5;
+  --background-team-color: #f5f4fa;
+  --background-hero-color: rgba(47, 48, 58, 1);
+  --background-footer-color: rgba(47, 48, 58, 1);
 }
 
 header {
-  background-color: var(--wite-color);
+  background-color: var(--background-header-color);
   color: var(--primary-text-color);
 }
 
 main {
-  background-color: #e5e5e5;
   color: var(--primary-text-color);
 }
 /* прибираємо крапки у перелічуваннях */
@@ -32,6 +37,7 @@ ul {
 .logo span {
   color: var(--primary-text-color);
 }
+
 /* site-nav */
 
 .site-nav a {
@@ -45,11 +51,90 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .stydio:hover,
+.site-nav .portfolio:hover,
+.site-nav .contacts:hover,
+.site-nav .stydio:focus,
+.site-nav .portfolio:focus,
+.site-nav .contacts:focus {
+  color: var(--accent-color);
+}
+
 /* auth-nav */
 
 .auth-nav a {
   color: var(--primary-text-color);
 }
 
-.auth-nav .tel {
+.auth-nav .mail:hover,
+.auth-nav .mail:focus,
+.auth-nav .tel:hover,
+.auth-nav .tel:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--background-hero-color);
+}
+
+.hero-title {
+  color: var(--wite-color);
+}
+
+/* features */
+
+.features {
+  background-color: var(--background-features-color);
+}
+
+.features-titles {
+  color: var(--primary-text-color);
+}
+
+.features-description-title {
+  color: var(--title-text-color);
+}
+
+/* work */
+
+.work {
+  background-color: var(--background-work-color);
+}
+
+.work-title {
+  color: var(--primary-text-color);
+}
+
+/* tiam */
+
+.tiam {
+  background-color: var(--background-team-color);
+}
+
+.tiam-title,
+.tiam-name {
+  color: var(--primary-text-color);
+}
+
+.tiam-name-title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+footer {
+  background-color: var(--background-footer-color);
+}
+
+.logo-footer {
+  color: var(--accent-color);
+}
+
+.logo-footer span {
+  color: var(--wite-color);
+}
+
+address a {
+  color: var(--wite-color);
 }
