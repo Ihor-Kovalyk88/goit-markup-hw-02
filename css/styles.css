@@ -82,6 +82,13 @@ ul {
   color: var(--wite-color);
 }
 
+/* button */
+
+button {
+  background-color: var(--accent-color);
+  color: var(--wite-color);
+}
+
 /* features */
 
 .features {
