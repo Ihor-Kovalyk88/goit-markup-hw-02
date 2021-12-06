@@ -148,16 +148,12 @@ address a {
 }
 /* портфоліо фільтр */
 
-.filter a {
+.filter button {
   color: var(--primary-text-color);
   background-color: var(--background-buttons-color);
-  text-decoration: none;
 }
 
-.buttons.active {
-  color: var(--wite-color);
-  background-color: var(--accent-color);
-}
+/* портфоліо проекти */
 
 .projeck {
   color: var(--primary-text-color);
