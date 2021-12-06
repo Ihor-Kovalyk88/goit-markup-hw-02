@@ -15,6 +15,7 @@
   --background-team-color: #f5f4fa;
   --background-hero-color: rgba(47, 48, 58, 1);
   --background-footer-color: rgba(47, 48, 58, 1);
+  --background-buttons-color: rgba(245, 244, 250, 1);
 }
 
 header {
@@ -44,7 +45,7 @@ ul {
   color: var(--primary-text-color);
 }
 
-.site-nav .stydio.current.current {
+.site-nav .stydio.current {
   color: var(--accent-color);
 }
 .site-nav .portfolio.current {
@@ -144,4 +145,28 @@ footer {
 
 address a {
   color: var(--wite-color);
+}
+/* портфоліо фільтр */
+
+.filter a {
+  color: var(--primary-text-color);
+  background-color: var(--background-buttons-color);
+  text-decoration: none;
+}
+
+.buttons.active {
+  color: var(--wite-color);
+  background-color: var(--accent-color);
+}
+
+.projeck {
+  color: var(--primary-text-color);
+}
+
+.projeck-title {
+  color: var(--title-text-color);
+}
+
+main {
+  background-color: var(--background-work-color);
 }
