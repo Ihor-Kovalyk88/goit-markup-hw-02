@@ -124,6 +124,7 @@ ul {
 button {
   background-color: var(--accent-color);
   color: var(--wite-color);
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 700;
@@ -252,6 +253,7 @@ address a {
 .filter button {
   color: var(--primary-text-color);
   background-color: var(--background-buttons-color);
+  cursor: pointer;
 
   font-weight: 500;
   font-size: 16px;
