@@ -7,7 +7,7 @@
 :root {
   --primary-text-color: rgba(33, 33, 33, 1);
   --title-text-color: rgba(117, 117, 117, 1);
-  --accent-color: rgba(33, 150, 243, 1);
+  --accent-color: #2196f3;
   --wite-color: rgba(255, 255, 255, 1);
   --background-features-color: #e5e5e5;
   --background-header-color: rgba(255, 255, 255, 1);
@@ -18,14 +18,29 @@
   --background-buttons-color: rgba(245, 244, 250, 1);
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   background-color: var(--background-header-color);
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 main {
   color: var(--primary-text-color);
 }
+
+/* убераємо підкреслення у посилань */
+
+a {
+  text-decoration: none;
+}
+
 /* прибираємо крапки у перелічуваннях */
 ul {
   list-style: none;
@@ -33,6 +48,12 @@ ul {
 
 .logo {
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
 }
 
 .logo span {
@@ -81,6 +102,14 @@ ul {
 
 .hero-title {
   color: var(--wite-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* button */
@@ -88,6 +117,15 @@ ul {
 button {
   background-color: var(--accent-color);
   color: var(--wite-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* features */
@@ -98,10 +136,21 @@ button {
 
 .features-titles {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features-description-title {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* work */
@@ -112,6 +161,12 @@ button {
 
 .work-title {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* tiam */
@@ -120,13 +175,32 @@ button {
   background-color: var(--background-team-color);
 }
 
-.tiam-title,
+.tiam-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .tiam-name {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .tiam-name-title {
   color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -137,6 +211,12 @@ footer {
 
 .logo-footer {
   color: var(--accent-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer span {
@@ -145,22 +225,43 @@ footer {
 
 address a {
   color: var(--wite-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 /* портфоліо фільтр */
 
 .filter button {
   color: var(--primary-text-color);
   background-color: var(--background-buttons-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* портфоліо проекти */
 
 .projeck {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .projeck-title {
   color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
 }
 
 main {
