@@ -281,6 +281,7 @@ body {
   background-color: var(--background-buttons-color);
   cursor: pointer;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -290,7 +291,8 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--accent-color);
+  color: var(--wite-color);
+  background-color: var(--accent-color);
 }
 
 /* портфоліо проекти */
