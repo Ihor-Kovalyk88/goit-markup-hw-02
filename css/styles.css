@@ -10,12 +10,9 @@
   --accent-color: #2196f3;
   --wite-color: rgba(255, 255, 255, 1);
   --wite-adres-color: rgba(255, 255, 255, 0.6);
-  --background-features-color: #e5e5e5;
-  --background-header-color: rgba(255, 255, 255, 1);
-  --background-work-color: #e5e5e5;
+  --background-features-work-color: #e5e5e5;
   --background-team-color: #f5f4fa;
-  --background-hero-color: rgba(47, 48, 58, 1);
-  --background-footer-color: rgba(47, 48, 58, 1);
+  --background-hero-footer-color: rgba(47, 48, 58, 1);
   --background-buttons-color: rgba(245, 244, 250, 1);
 }
 
@@ -28,7 +25,7 @@ body {
 /* header */
 
 .heading {
-  background-color: var(--background-header-color);
+  background-color: var(--wite-color);
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -105,7 +102,7 @@ body {
 
 /* hero */
 .hero {
-  background-color: var(--background-hero-color);
+  background-color: var(--background-hero-footer-color);
 }
 
 .hero-title {
@@ -145,7 +142,7 @@ body {
 /* features */
 
 .features {
-  background-color: var(--background-features-color);
+  background-color: var(--background-features-work-color);
 }
 
 .features-title {
@@ -170,7 +167,7 @@ body {
 /* work */
 
 .work {
-  background-color: var(--background-work-color);
+  background-color: var(--background-features-work-color);
 }
 
 .work-title {
@@ -218,7 +215,7 @@ body {
 /* footer */
 
 .page-footer {
-  background-color: var(--background-footer-color);
+  background-color: var(--background-hero-footer-color);
 }
 
 .page-footer ul {
@@ -315,7 +312,7 @@ body {
 }
 
 .mainly {
-  background-color: var(--background-work-color);
+  background-color: var(--background-features-work-color);
 }
 
 .mainly ul {
